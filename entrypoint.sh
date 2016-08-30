@@ -8,7 +8,7 @@ set -e
 : ${APP_DIR:="/var/www"}      # Location of built Meteor app
 : ${SRC_DIR:="/src/app"}      # Location of Meteor app source
 : ${BRANCH:="master"}
-: ${MONGO_URL:="mongodb://${MONGO_PORT_27017_TCP_ADDR}:${MONGO_PORT_27017_TCP_PORT}/${DB}"}
+: ${MONGO_URL:="${MONGO_URL}"}
 : ${PORT:="80"}
 : ${RELEASE:="latest"}
 
